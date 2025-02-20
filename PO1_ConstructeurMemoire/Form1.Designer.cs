@@ -100,11 +100,11 @@
             label_ajouterJoueurEquipe.TabIndex = 6;
             label_ajouterJoueurEquipe.Text = "Équipe : ";
             // 
-            // listBox_equipe
+            // listBox_equipes
             // 
             listBox_equipes.FormattingEnabled = true;
             listBox_equipes.Location = new Point(16, 26);
-            listBox_equipes.Name = "listBox_equipe";
+            listBox_equipes.Name = "listBox_equipes";
             listBox_equipes.Size = new Size(230, 104);
             listBox_equipes.TabIndex = 7;
             // 
@@ -120,6 +120,7 @@
             groupBox_Equipe.TabIndex = 8;
             groupBox_Equipe.TabStop = false;
             groupBox_Equipe.Text = "Équipes";
+            groupBox_Equipe.Enter += groupBox_Equipe_Enter;
             // 
             // button_modifierEquipeNom
             // 
