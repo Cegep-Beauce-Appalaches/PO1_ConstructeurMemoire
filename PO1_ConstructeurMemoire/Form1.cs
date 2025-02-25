@@ -97,6 +97,8 @@ namespace PO1_ConstructeurMemoire
             bindingSourceListboxEquipes.ResetBindings(false);
             bindingSourceComboBoxEquipes.ResetBindings(false);
             bindingSourceListboxJoueurs.ResetBindings(false);
+
+            
         }
 
         private void groupBox_Equipe_Enter(object sender, EventArgs e)
